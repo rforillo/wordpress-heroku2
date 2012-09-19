@@ -1,0 +1,350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Grisaille v1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/the-erudite\n"
+"POT-Creation-Date: 2010-05-22 13:45-0500\n"
+"PO-Revision-Date: 2012-02-19 22:25-0500\n"
+"Last-Translator: nudge <hullo@nudge.ca>\n"
+"Language-Team: Nudge Design <nudgeme@nudgedesign.ca>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: archive.php:22
+#@ grisaille
+msgid "Blog Archives"
+msgstr "Archives du blogue"
+
+#: page.php:27
+#@ grisaille
+msgid "Edit"
+msgstr "Modifier"
+
+#: home.php:15
+#: index.php:22
+#: page.php:21
+#: single.php:23
+#@ grisaille
+msgid "Pages:"
+msgstr "Pages :"
+
+#: sidebar.php:20
+#@ grisaille
+msgid "Categories"
+msgstr "Catégories"
+
+#: searchform.php:4
+#: sidebar.php:31
+#@ grisaille
+msgid "Search"
+msgstr "Recherche de mots"
+
+#: 404.php:4
+#@ grisaille
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: 404.php:5
+#@ grisaille
+msgid "Sorry, what you are looking for doesn't seem to be here."
+msgstr "Désolé, ce que vous cherchez n'existe pas."
+
+#: 404.php:8
+#@ grisaille
+msgid "You can try:"
+msgstr "Vous pouvez"
+
+#: 404.php:9
+#@ grisaille
+msgid "Going"
+msgstr "retourner"
+
+#: 404.php:9
+#@ grisaille
+msgid "home"
+msgstr "à la page d'accueil"
+
+#: 404.php:10
+#@ grisaille
+msgid "or doing a Search."
+msgstr "ou faire une recherche."
+
+#: archive.php:10
+#: archive.php:39
+#: home.php:21
+#: index.php:28
+#: single.php:29
+#@ grisaille
+msgid "Category"
+msgstr "Catégorie"
+
+#: archive.php:12
+#@ grisaille
+msgid "Posts Tagged"
+msgstr "Articles avec mots-clés"
+
+#: archive.php:20
+#@ grisaille
+msgid "Author Archive"
+msgstr "Archives de l'auteur"
+
+#: archive.php:33
+#: home.php:10
+#: index.php:16
+#: single.php:17
+#@ grisaille
+msgid "by"
+msgstr "par"
+
+#: archive.php:38
+#: home.php:13
+#: index.php:20
+#@ grisaille
+msgid "keep reading"
+msgstr "continuer la lecture"
+
+#: archive.php:39
+#: home.php:21
+#: index.php:28
+#: single.php:29
+#@ grisaille
+msgid "Tags"
+msgstr "Mots-clés"
+
+#: archive.php:53
+#: home.php:33
+#: index.php:41
+#@ grisaille
+msgid "Sorry, no posts matched your criteria."
+msgstr "Désolé, aucun article ne correspond aux critères de votre recherche."
+
+#: archive.php:58
+#: home.php:38
+#: index.php:46
+#@ grisaille
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Articles plus anciens"
+
+#: archive.php:59
+#: home.php:39
+#: index.php:47
+#@ grisaille
+msgid "Newer Entries &raquo;"
+msgstr "Articles plus récents &raquo;"
+
+#: comments.php:9
+#@ grisaille
+msgid "Enter password."
+msgstr "Entrez votre mot de passe."
+
+#: comments.php:12
+#@ grisaille
+msgid "0 comments"
+msgstr "0 commentaire"
+
+#: comments.php:12
+#@ grisaille
+msgid "1 comment"
+msgstr "1 commentaire"
+
+#: comments.php:12
+#@ grisaille
+msgid "% comments"
+msgstr "% commentaires"
+
+#: comments.php:15
+#@ grisaille
+msgid "Leave a comment"
+msgstr "Laissez un commentaire"
+
+#: comments.php:33
+#, php-format
+#@ default
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez <a href=\"%s\" title=\"Se connecter\">vous connecter</a> pour laisser un commentaire."
+
+#: comments.php:41
+#@ grisaille
+msgid "Sorry, comments are closed."
+msgstr "Désolé, il n'est plus possible de laisser des commentaires."
+
+#: functions.php:147
+#@ grisaille
+msgid "\">keep reading</a>"
+msgstr "\">continuer la lecture</a>"
+
+#: functions.php:200
+#@ grisaille
+msgid "Grisaille Sidebar"
+msgstr "Barre latérale Grisaille"
+
+#: functions.php:201
+#@ grisaille
+msgid "Main right sidebar."
+msgstr "Barre latérale principale de droite."
+
+#: header.php:21
+#@ grisaille
+msgid "Twitter"
+msgstr "Twitter"
+
+#: header.php:25
+#@ grisaille
+msgid "Facebook"
+msgstr "Facebook"
+
+#: header.php:29
+#@ grisaille
+msgid "Google +"
+msgstr "Google +"
+
+#: header.php:34
+#@ grisaille
+msgid "RSS Feed"
+msgstr "Fil RSS"
+
+#: home.php:18
+#: index.php:25
+#: page.php:24
+#: single.php:26
+#@ grisaille
+msgid "Next page"
+msgstr "Page suivante"
+
+#: home.php:19
+#: index.php:26
+#: page.php:25
+#: single.php:27
+#@ grisaille
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: inc/theme-options.php:17
+#@ grisaille
+msgid "Theme Options"
+msgstr "Options de thème"
+
+#: inc/theme-options.php:29
+#@ grisaille
+msgid " Theme Options"
+msgstr " Options de thème"
+
+#: inc/theme-options.php:30
+#@ grisaille
+msgid "These options will let you setup the social icons at the top of the theme. You can enter the URLs of your profiles to have the icons show up."
+msgstr "Ces options vous permettront de gérer les icônes de réseaux sociaux qui se trouvent au haut du thème. Vous pouvez entrer l'adresse de votre profil pour faire apparaître les icônes."
+
+#: inc/theme-options.php:32
+#@ grisaille
+msgid "Options saved"
+msgstr "Options sauvegardées"
+
+#: inc/theme-options.php:46
+#@ grisaille
+msgid "Hide RSS Icon?"
+msgstr "Cacher l'icône RSS?"
+
+#: inc/theme-options.php:49
+#@ grisaille
+msgid "Hide the RSS feed icon?"
+msgstr "Cacher l'icône RSS?"
+
+#: inc/theme-options.php:58
+#@ grisaille
+msgid "Enter your Facebook URL"
+msgstr "Entrez votre adresse Facebook"
+
+#: inc/theme-options.php:60
+#@ default
+msgid "facebookurl"
+msgstr "facebookurl"
+
+#: inc/theme-options.php:61
+#@ grisaille
+msgid "Leave blank to hide Facebook Icon"
+msgstr "Laisser ce champ  vide pour cacher l'icône Facebook"
+
+#: inc/theme-options.php:70
+#@ grisaille
+msgid "Enter your Twitter URL"
+msgstr "Entrez votre adresse Twitter"
+
+#: inc/theme-options.php:72
+#@ default
+msgid "twitterurl"
+msgstr "twitterurl"
+
+#: inc/theme-options.php:73
+#@ grisaille
+msgid "Leave blank to hide Twitter Icon"
+msgstr "Laisser ce champ vide pour cacher l'icône Twitter"
+
+#: inc/theme-options.php:82
+#@ grisaille
+msgid "Enter your Google + URL"
+msgstr "Entrez votre adresse Google +"
+
+#: inc/theme-options.php:84
+#@ default
+msgid "googleplusurl"
+msgstr "googleplusurl"
+
+#: inc/theme-options.php:85
+#@ grisaille
+msgid "Leave blank to hide Google + Icon"
+msgstr "Laisser ce champ vide pour cacher l'icône de Google +"
+
+#: inc/theme-options.php:93
+#@ grisaille
+msgid "Save Options"
+msgstr "Sauvegarder les options"
+
+#: sidebar.php:10
+#@ grisaille
+msgid "Bookmarks"
+msgstr "Favoris"
+
+#: sidebar.php:27
+#@ grisaille
+msgid "Search:"
+msgstr "Chercher:"
+
+#: sidebar.php:37
+#@ grisaille
+msgid "Archives:"
+msgstr "Archives:"
+
+#: sidebar.php:42
+#@ grisaille
+msgid "Meta:"
+msgstr "Méta:"
+
+#: sidebar.php:46
+#@ grisaille
+msgid "Syndicate this site using RSS"
+msgstr "Syndiquer ce site avec RSS"
+
+#: sidebar.php:46
+#@ default
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: sidebar.php:47
+#@ grisaille
+msgid "The latest comments to all posts in RSS"
+msgstr "Commentaires les plus récents pour tous les articles dans le fil RSS"
+
+#: sidebar.php:47
+#@ grisaille
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "Commentaires <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
