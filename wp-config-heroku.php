@@ -25,7 +25,7 @@ define('DB_USER', $_ENV["XEROUND_DATABASE_USERNAME"]);
 define('DB_PASSWORD', $_ENV["XEROUND_DATABASE_PASSWORD"]);
 
 /** MySQL hostname */
-define('DB_HOST', $_ENV["XEROUND_DATABASE_HOST"].':'.$ENV_["XEROUND_DATABASE_PORT");
+define('DB_HOST', $_ENV["XEROUND_DATABASE_HOST"].':'.$ENV_["XEROUND_DATABASE_PORT"]);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
