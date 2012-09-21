@@ -17,7 +17,6 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', $_ENV["XEROUND_DATABASE_NAME"]);
-<<<<<<< HEAD
 
 /** MySQL database username */
 define('DB_USER', $_ENV["XEROUND_DATABASE_DATABASE_USERNAME"]);

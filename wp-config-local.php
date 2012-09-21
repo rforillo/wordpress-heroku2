@@ -17,6 +17,16 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', $_ENV["XEROUND_DATABASE_NAME"]);
+
+/** MySQL database username */
+define('DB_USER', $_ENV["XEROUND_DATABASE_DATABASE_USERNAME"]);
+
+/** MySQL database password */
+define('DB_PASSWORD', $_ENV["XEROUND_DATABASE_PASSWORD"]);
+
+/** MySQL hostname */
+define('DB_HOST', $_ENV["XEROUND_DATABASE_HOST].':'.$ENV_["XEROUND_DATABASE_PORT");
+=======
 $_ENV["USER"]
 /** MySQL database username */
 define('DB_USER',  $_ENV["XEROUND_DATABASE_INTERNAL_USERNAME")];
@@ -26,6 +36,7 @@ define('DB_PASSWORD',  $_ENV["XEROUND_DATABASE_INTERNAL_PASSWORD"]);
 
 /** MySQL hostname */
 define('DB_HOST', $_ENV["XEROUND_DATABASE_HOST"] . ':' .  $_ENV["XEROUND_DATABASE_PORT"]);
+>>>>>>> 9fae19ea717b3520e37ff0c477e3d6b3f9076776
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
