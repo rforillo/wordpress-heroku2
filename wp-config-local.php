@@ -32,7 +32,7 @@ echo 'DB_NAME '.DB_NAME.'<br>';
 echo 'DB_USER '.DB_USER.'<br>';
 echo 'DB_PASS '.DB_PASSWORD.'<br>';
 echo 'DB_HOST '.DB_HOST.'<br>';
-echo 'XEROUND_DATABASE_HOST '.$ENV_["XEROUND_DATABASE_HOST"].'<br>;
+echo 'XEROUND_DATABASE_HOST '.$ENV_["XEROUND_DATABASE_HOST"].'<br>';
 echo 'XEROUND_DATABASE_PORT '.$ENV_["XEROUND_DATABASE_PORT"].'<br>';
 
 /** Database Charset to use in creating database tables. */
