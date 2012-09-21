@@ -25,7 +25,7 @@ define('DB_USER', $_ENV["XEROUND_DATABASE_USERNAME"]);
 define('DB_PASSWORD', $_ENV["XEROUND_DATABASE_PASSWORD"]);
 
 /** MySQL hostname */
-define('DB_HOST', $_ENV["XEROUND_DATABASE_HOST"].':'.$ENV_["XEROUND_DATABASE_PORT"]);
+define('DB_HOST', $_ENV["XEROUND_DATABASE_HOST"] . ':' . $ENV_["XEROUND_DATABASE_PORT"]); 
 
 /* If you have trouble connected to your db uncomment these echos */
 echo "DB_NAME".DB_NAME."\n";
