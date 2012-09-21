@@ -24,16 +24,23 @@ define('DB_USER', $_ENV["XEROUND_DATABASE_USERNAME"]);
 /** MySQL database password */
 define('DB_PASSWORD', $_ENV["XEROUND_DATABASE_PASSWORD"]);
 
-/** MySQL hostname */
-define('DB_HOST', $_ENV["XEROUND_DATABASE_HOST"] . ':' . $ENV_["XEROUND_DATABASE_PORT"]); 
+/** MySQL host url */
+define('DB_HOST_URL', $_ENV["XEROUND_DATABASE_HOST"]);
 
-/* If you have trouble connected to your db uncomment these echos */
+/** MySQL port */
+define('DB_PORT', $_ENV["XEROUND_DATABASE_PORT"]);
+
+/** MySQL hostname */
+define('DB_HOST', DB_HOST_URL . ':' . DB_PORT); 
+
+/* If you have trouble connected to your db uncomment these echos
 echo 'DB_NAME '.DB_NAME.'<br>';
 echo 'DB_USER '.DB_USER.'<br>';
 echo 'DB_PASS '.DB_PASSWORD.'<br>';
+echo 'DB_HURL '.DB_HOST_URL.'<br>';
+echo 'DB_PORT '.DB_PORT.'<br>';
 echo 'DB_HOST '.DB_HOST.'<br>';
-echo 'XEROUND_DATABASE_HOST '.$ENV_["XEROUND_DATABASE_HOST"].'<br>';
-echo 'XEROUND_DATABASE_PORT '.$ENV_["XEROUND_DATABASE_PORT"].'<br>';
+*/
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
